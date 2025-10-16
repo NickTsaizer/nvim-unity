@@ -10,6 +10,7 @@ namespace NvimUnity
         private static string preferredTerminal = "";
         private static Dictionary<string, string> availableTerminals = new Dictionary<string, string>
         {
+            ["kitty"] = "kitty \"{0}\"", 
             ["ghostty"] = "", // Binary
             ["xdg-terminal-exec"] = "xdg-terminal-exec -e \"{0}\"",
             // More terminals can be added
